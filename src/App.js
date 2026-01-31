@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Click from "./Components/Clock";
+import Clock from "./Components/Clock";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Click></Click>
+      <Clock></Clock>
     </div>
   );
 }
