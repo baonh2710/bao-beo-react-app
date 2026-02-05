@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Clock from "./Components/Clock";
 import FontSizeChanger from "./Components/FontSizeChanger";
+import CartItem from "./Components/CartItem";
 
 function App() {
   return (
@@ -21,7 +22,10 @@ function App() {
         </a>
       </header>
       <Clock></Clock>
+      <hr></hr>
       <FontSizeChanger></FontSizeChanger>
+      <hr></hr>
+      <CartItem></CartItem>
     </div>
   );
 }
