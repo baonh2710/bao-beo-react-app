@@ -3,6 +3,7 @@ import "./App.css";
 import Clock from "./Components/Clock";
 import FontSizeChanger from "./Components/FontSizeChanger";
 import CartItem from "./Components/CartItem";
+import FocusTimer from "./Components/FocusTimer";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
       <FontSizeChanger></FontSizeChanger>
       <hr></hr>
       <CartItem></CartItem>
+      <hr></hr>
+      <FocusTimer></FocusTimer>
     </div>
   );
 }
