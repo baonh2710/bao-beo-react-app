@@ -36,7 +36,7 @@ function CartItem() {
           You get free shipping
         </p>
       )}
-      <p>Total amount = {total.toLocaleString()}</p>
+      <p>Total amount = {total.toLocaleString()} VND</p>
     </div>
   );
 }

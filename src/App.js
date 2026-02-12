@@ -4,6 +4,9 @@ import Clock from "./Components/Clock";
 import FontSizeChanger from "./Components/FontSizeChanger";
 import CartItem from "./Components/CartItem";
 import FocusTimer from "./Components/FocusTimer";
+import Counter from "./Components/Counter";
+import NoteManager from "./Components/NoteManager";
+import Calculator from "./Components/Calculator";
 
 function App() {
   return (
@@ -29,6 +32,12 @@ function App() {
       <CartItem></CartItem>
       <hr></hr>
       <FocusTimer></FocusTimer>
+      <hr></hr>
+      <Counter></Counter>
+      <hr></hr>
+      <NoteManager></NoteManager>
+      <hr></hr>
+      <Calculator></Calculator>
     </div>
   );
 }
