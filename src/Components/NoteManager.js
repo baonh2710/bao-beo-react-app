@@ -12,8 +12,7 @@ function NoteManager() {
   }
 
   function handleDeleteNote(indexToDelete) {
-    const temp = notes.filter((_, index) => index !== indexToDelete);
-    setNotes(temp);
+    setNotes(notes.filter((_, index) => index !== indexToDelete));
   }
 
   return (
