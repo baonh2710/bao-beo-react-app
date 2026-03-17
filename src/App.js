@@ -10,6 +10,7 @@ import Calculator from "./Components/Calculator";
 import LightSwitch from "./Components/LightSwitch";
 import StudentManagement from "./Components/StudentManagement";
 import AccountChecking from "./Components/AccountChecking";
+import ProductManager from "./Components/ProductManager";
 
 function App() {
   return (
@@ -47,6 +48,8 @@ function App() {
       <StudentManagement></StudentManagement>
       <hr></hr>
       <AccountChecking></AccountChecking>
+      <hr></hr>
+      <ProductManager></ProductManager>
     </div>
   );
 }
