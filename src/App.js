@@ -7,6 +7,7 @@ import FocusTimer from "./Components/FocusTimer";
 import Counter from "./Components/Counter";
 import NoteManager from "./Components/NoteManager";
 import Calculator from "./Components/Calculator";
+import LightSwitch from "./Components/LightSwitch";
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
       <NoteManager></NoteManager>
       <hr></hr>
       <Calculator></Calculator>
+      <hr></hr>
+      <LightSwitch></LightSwitch>
     </div>
   );
 }
