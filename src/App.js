@@ -8,6 +8,7 @@ import Counter from "./Components/Counter";
 import NoteManager from "./Components/NoteManager";
 import Calculator from "./Components/Calculator";
 import LightSwitch from "./Components/LightSwitch";
+import StudentManagement from "./Components/StudentManagement";
 
 function App() {
   return (
@@ -41,6 +42,8 @@ function App() {
       <Calculator></Calculator>
       <hr></hr>
       <LightSwitch></LightSwitch>
+      <hr></hr>
+      <StudentManagement></StudentManagement>
     </div>
   );
 }
